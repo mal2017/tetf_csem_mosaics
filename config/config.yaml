@@ -1,0 +1,15 @@
+# directory holding CSEM executables
+CSEM_DIR: "$HOME/bin/csem-2.4"
+
+GENOME_URL: http://ftp.flybase.net/releases/FB2021_04/dmel_r6.41/fasta/dmel-all-chromosome-r6.41.fasta.gz
+
+CHROM_SIZES: "resources/dm6_peakseq_mappability/results/genome_filtered.sizes"
+
+# peakseq mappability pipeline is specific to known read lengths.
+# most of the data Im' working with is 50bp, but som is 36bp
+# when reads are greater than this value, trim them down
+MAX_READ_LEN: 36
+
+N_CONTENT: resources/dm6_peakseq_mappability/results/final-allchr/allchr_N_fragL200_bin50.txt
+GC_CONTENT: resources/dm6_peakseq_mappability/results/final-allchr/allchr_GC_fragL200_bin50.txt
+MAPPABILITY: resources/dm6_peakseq_mappability/results/final-allchr/allchr_map_fragL200_bin50.txt

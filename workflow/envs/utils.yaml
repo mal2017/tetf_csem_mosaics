@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - ffq=0.3.0
+  - jq=1.6
+  - samtools=1.16.1
+  - bedtools=2.30.0
+  

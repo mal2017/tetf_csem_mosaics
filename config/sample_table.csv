@@ -1,0 +1,3 @@
+sample_name,accession,LIBRARY_LAYOUT,input
+embryo_0_8hr_pan_1,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/009/SRR1164479/SRR1164479.fastq.gz,SINGLE,embryo_0_8hr_pan_input_1
+embryo_0_8hr_pan_input_1,ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/007/SRR1164477/SRR1164477.fastq.gz,SINGLE,NA

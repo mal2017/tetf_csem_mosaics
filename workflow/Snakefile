@@ -1,0 +1,34 @@
+import sys
+import peppy
+import glob
+
+#configfile: "../../config/config.yaml"
+configfile: "config/config.yaml"
+pepfile: "config/pep.yaml"
+
+SAMPLES = [x.sample_name for x in pep.samples]
+
+configfile: "config/config.yaml"
+
+FRAGLEN = config.get("FRAGLEN", 200),
+BINSIZE = config.get("BINSIZE", 50),
+
+SAMPLES = [x.sample_name for x in pep.samples]
+
+CHIPS = [x.sample_name for x in pep.samples if not x.input == "NA"]
+
+
+rule all:
+    input:
+        #"results/csem_mosaics/reference/genome.fa.gz",
+        #expand("results/csem_mosaics/trimmed/{s}.fastp.fastq.gz",s=SAMPLES),
+        #expand("results/csem_mosaics/alignments/{s}.markdup.bam",s=SAMPLES),
+        #expand("results/csem_mosaics/csem-dedup/{s}.bed", s=SAMPLES),
+        expand("results/csem_mosaics/mosaics/{s}/{s}.mosaics.rds", s=CHIPS),
+        expand("results/csem_mosaics/viz/{s}.log2ratio.bw",s=CHIPS)
+
+include: "rules/prep.smk"
+include: "rules/align.smk"
+include: "rules/csem.smk"
+include: "rules/mosaics.smk"
+include: "rules/viz.smk"
