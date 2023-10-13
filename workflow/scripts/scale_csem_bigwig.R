@@ -6,11 +6,10 @@
 
 library(rtracklayer)
 
-#ip_f <- "~/BigData/230315_tetf_chip_mosaics/results/csem_dedup/embryo_0_8hr_pan_1.bw"
+#ip_f <- "results/csem_mosaics/csem/BEAF.HB.14.16.hr.OR.embryo.D.melanogaster.ChIP.Rep2.bw"
 ip_f <- snakemake@input[["ip"]]
 
-
-#wce_f <- "~/BigData/230315_tetf_chip_mosaics/results/csem_dedup/embryo_0_8hr_pan_input_1.bw"
+#wce_f <- "results/csem_mosaics/csem/BEAF.HB.14.16.hr.OR.embryo.D.melanogaster.Input.Rep2.bw"
 wce_f <- snakemake@input[["wce"]]
 
 x <- ip_f |> import()
@@ -21,12 +20,23 @@ y <- wce_f |> import()
 #x |> width() |> hist()
 #y |> width() |> hist()
 
-x_tot <- sum(x$score)
-y_tot <- sum(y$score)
+# will follow normalization scheme from
+# wei et al. 2022 https://doi.org/10.1093/molbev/msac080
+# the actual log FC calc with be done by deeptools outside of this script
+scale_within_sample <- function(gr) {
+    gr$score <- gr$score / (median(gr$score) + 0.01)
+    
+    return(gr)
+}
 
-x$score <- x$score / (x_tot/y_tot)
+x <- scale_within_sample(x)
+y <- scale_within_sample(y)
 
-stopifnot(round(sum(x$score),1)==round(sum(y$score),1))
+# total signal scale
+#x_tot <- sum(x$score)
+#y_tot <- sum(y$score)
+#x$score <- x$score / (x_tot/y_tot)
+#stopifnot(round(sum(x$score),1)==round(sum(y$score),1))
 
 # alternatively, median scale
 #med_x <- median(x$score)
@@ -35,3 +45,4 @@ stopifnot(round(sum(x$score),1)==round(sum(y$score),1))
 #stopifnot(median(x$score)==median(y$score))
 
 export(x, snakemake@output$bw)
+export(y, snakemake@output$bw_wce)

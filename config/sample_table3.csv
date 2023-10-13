@@ -1,7 +1,9 @@
-sample_name,accession,LIBRARY_LAYOUT,input
+sample_name,accession,LIBRARY_LAYOUT,input,
+E0.4_INPUT,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030270/SRR030270.fastq.gz,SINGLE,NA
 E16.20_H3K4Me3_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030271/SRR030271.fastq.gz,SINGLE,E16.20_INPUT
 E16.20_H3K9Ac_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030290/SRR030290.fastq.gz,SINGLE,E16.20_INPUT
 E4.8_H3K9Ac_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030293/SRR030293.fastq.gz,SINGLE,E4.8_INPUT
+E4.8_INPUT,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030288/SRR030288.fastq.gz,SINGLE,NA
 E0.4_H3K27Ac_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030295/SRR030295.fastq.gz,SINGLE,E0.4_INPUT
 E0.4_H3K4Me1_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030297/SRR030297.fastq.gz,SINGLE,E0.4_INPUT
 E4.8_CBP_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030319/SRR030319.fastq.gz,SINGLE,E4.8_INPUT_CBP
@@ -60,7 +62,7 @@ E4.8_H3K27Me3_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030359/SRR030359.
 E16.20_H3K9Me3_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030365/SRR030365.fastq.gz,SINGLE,E16.20_INPUT
 E12.16_H3K9Me3_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030366/SRR030366.fastq.gz,SINGLE,E12.16_INPUT
 E8.12_H3K9Me3_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030367/SRR030367.fastq.gz,SINGLE,E8.12_INPUT
-E20.24_CBP_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030374/SRR030374.fastq.gz,SINGLE,E20.24_CBP_ChIPSeq_1
+E20.24_CBP_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030374/SRR030374.fastq.gz,SINGLE,E20.24_INPUT
 E0.4_CBP_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030375/SRR030375.fastq.gz,SINGLE,E0.4_INPUT
 E8.12_CBP_ChIPSeq_1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR030/SRR030381/SRR030381.fastq.gz,SINGLE,E8.12_INPUT_CBP
 E0.12_HDAC.495_ChIPSeq_1.and.2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR034/SRR034700/SRR034700.fastq.gz,SINGLE,E0.12_HDAC..492..501._INPUT_1
@@ -69,7 +71,7 @@ Eip74EF.GFP_8.16h_embryonic_ChIP.seq_Input_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR
 H_0.8h_embryonic_ChIP.seq_ChIP_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/009/SRR1164449/SRR1164449.fastq.gz,SINGLE,H_0.8h_embryonic_ChIP.seq_Input_Rep1
 lola.PJ.GFP_0.12h_embryo_ChIP.seq_Input_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/001/SRR1164451/SRR1164451.fastq.gz,SINGLE,NA
 lola.PJ.GFP_0.12h_embryo_ChIP.seq_Input_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/002/SRR1164452/SRR1164452.fastq.gz,SINGLE,NA
-lola.PJ.GFP_12.24h_embryo_ChIP.seq_ChIP_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/007/SRR1164457/SRR1164457.fastq.gz,SINGLE,lola.PJ.GFP_0.12h_embryo_ChIP.seq_Input_Rep1
+lola.PJ.GFP_12.24h_embryo_ChIP.seq_ChIP_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/007/SRR1164457/SRR1164457.fastq.gz,SINGLE,lola.PJ.GFP_12.24h_embryo_ChIP.seq_Input_Rep1
 Su.H._0.8_embryonic_ChIP.seq_ChIP_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/001/SRR1164471/SRR1164471.fastq.gz,SINGLE,Su.H._0.8_embryonic_ChIP.seq_Input_Rep2
 Su.H._0.8_embryonic_ChIP.seq_ChIP_Rep3,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/002/SRR1164472/SRR1164472.fastq.gz,SINGLE,Su.H._0.8_embryonic_ChIP.seq_Input_Rep3
 dTBP_0.8h_embryonic_ChIP.seq_Input_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/003/SRR1164473/SRR1164473.fastq.gz,SINGLE,NA
@@ -149,7 +151,7 @@ USP.GFP_0.12.seq_ChIP_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/009/SRR1198759/SR
 CG8478_S2_cells_ChIP.seq_Input_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/003/SRR1198773/SRR1198773.fastq.gz,SINGLE,NA
 CG8478_S2_cells_ChIP.seq_ChIP_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/004/SRR1198774/SRR1198774.fastq.gz,SINGLE,CG8478_S2_cells_ChIP.seq_Input_Rep1
 cmi_0.8h_embryonic_ChIP.seq_Input_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/007/SRR1198777/SRR1198777.fastq.gz,SINGLE,NA
-cmi_0.8h_embryonic_ChIP.seq_ChIP_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/008/SRR1198778/SRR1198778.fastq.gz,SINGLE,cmi_0.8h_embryonic_ChIP.seq_ChIP_Rep1
+cmi_0.8h_embryonic_ChIP.seq_ChIP_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/008/SRR1198778/SRR1198778.fastq.gz,SINGLE,cmi_0.8h_embryonic_ChIP.seq_Input_Rep1
 H3K4me1_S2_cells_ChIP.seq_Input_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/000/SRR1198780/SRR1198780.fastq.gz,SINGLE,NA
 H3K4me1_S2_cells_ChIP.seq_Input_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/001/SRR1198781/SRR1198781.fastq.gz,SINGLE,NA
 H3K4me3_8.16h_embryonic_ChIP.seq_Input_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/008/SRR1198788/SRR1198788.fastq.gz,SINGLE,NA
@@ -178,7 +180,7 @@ H_0.8h_embryonic_ChIP.seq_ChIP_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/000/SRR1
 lola.PJ.GFP_0.12h_embryo_ChIP.seq_ChIP_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/004/SRR1164454/SRR1164454.fastq.gz,SINGLE,lola.PJ.GFP_0.12h_embryo_ChIP.seq_Input_Rep2
 lola.PJ.GFP_12.24h_embryo_ChIP.seq_Input_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/005/SRR1164455/SRR1164455.fastq.gz,SINGLE,NA
 lola.PJ.GFP_12.24h_embryo_ChIP.seq_Input_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/006/SRR1164456/SRR1164456.fastq.gz,SINGLE,NA
-lola.PJ.GFP_12.24h_embryo_ChIP.seq_ChIP_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/008/SRR1164458/SRR1164458.fastq.gz,SINGLE,lola.PJ.GFP_12.24h_embryo_ChIP.seq_Input_Rep1
+lola.PJ.GFP_12.24h_embryo_ChIP.seq_ChIP_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/008/SRR1164458/SRR1164458.fastq.gz,SINGLE,lola.PJ.GFP_12.24h_embryo_ChIP.seq_Input_Rep2
 Stat92E.GFP_12.24h_embryonic_ChIP.seq_Input_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/004/SRR1164464/SRR1164464.fastq.gz,SINGLE,NA
 Su.H._0.8_embryonic_ChIP.seq_Input_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/007/SRR1164467/SRR1164467.fastq.gz,SINGLE,NA
 TCF_nonISO1_0.8_embryonic_ChIP.seq_Input_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/008/SRR1164478/SRR1164478.fastq.gz,SINGLE,NA
@@ -206,8 +208,8 @@ USP.GFP_0.12.seq_ChIP_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/008/SRR1198758/SR
 CG8478_S2_cells_ChIP.seq_Input_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/002/SRR1198772/SRR1198772.fastq.gz,SINGLE,NA
 H3K4me1_S2_cells_ChIP.seq_ChIP_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/002/SRR1198782/SRR1198782.fastq.gz,SINGLE,H3K4me1_S2_cells_ChIP.seq_Input_Rep1
 H3K4me1_S2_cells_ChIP.seq_ChIP_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/003/SRR1198783/SRR1198783.fastq.gz,SINGLE,H3K4me1_S2_cells_ChIP.seq_Input_Rep2
-H3K4me3_S2_cells_ChIP.seq_ChIP_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/004/SRR1198794/SRR1198794.fastq.gz,SINGLE,H3K4me3_S2_cells_ChIP.seq_ChIP_Rep1
-H3K4me3_S2_cells_ChIP.seq_ChIP_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/005/SRR1198795/SRR1198795.fastq.gz,SINGLE,H3K4me3_S2_cells_ChIP.seq_ChIP_Rep2
+H3K4me3_S2_cells_ChIP.seq_ChIP_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/004/SRR1198794/SRR1198794.fastq.gz,SINGLE,H3K4me3_S2_cells_ChIP.seq_Input_Rep1
+H3K4me3_S2_cells_ChIP.seq_ChIP_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/005/SRR1198795/SRR1198795.fastq.gz,SINGLE,H3K4me3_S2_cells_ChIP.seq_Input_Rep2
 Hr78.GFP_8.16_embryonic_ChIP.seq_Input_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/007/SRR1198797/SRR1198797.fastq.gz,SINGLE,NA
 insv_Kc_cells_ChIP.seq_Input_Rep3,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/002/SRR1198802/SRR1198802.fastq.gz,SINGLE,NA
 insv_Kc_cells_ChIP.seq_ChIP_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR119/003/SRR1198803/SRR1198803.fastq.gz,SINGLE,insv_Kc_cells_ChIP.seq_Input_Rep3

@@ -41,8 +41,8 @@ rule bt1_align:
         "docker://quay.io/biocontainers/bowtie:1.3.1--py310h4070885_4"
     resources:
         time=40,
-        mem=24000,
-        cpus=12
+        mem=48000,
+        cpus=24
     shell:
         """
         bowtie --threads {threads} -q -v 2 -a -m 99 -p 8 --sam -x {input.idx}/genome {input.r} {output.al} 2> {log}
@@ -57,7 +57,7 @@ rule picard_sort_by_name:
     singularity:
         "docker://quay.io/biocontainers/picard:3.0.0--hdfd78af_1"
     resources:
-        time=40,
+        time=120,
         mem=24000,
         cpus=1
     shell:

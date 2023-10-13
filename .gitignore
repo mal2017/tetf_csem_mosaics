@@ -6,3 +6,4 @@ results/
 .Rproj.user
 RM*/
 !resources/dm6_peakseq_mappability/results/
+.cache/

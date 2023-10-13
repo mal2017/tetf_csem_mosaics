@@ -1,0 +1,3 @@
+sample,fastq_1,fastq_2,antibody,control
+TCF_0.8h_embryo_ChIP.seq_ChIP_Rep1_REP1,results/basic_chip/fastq/TCF_0.8h_embryo_ChIP.seq_ChIP_Rep1.fastq.gz,,TCF_0.8h_embryo,TCF_0.8h_embryo_ChIP.seq_Input_Rep1_REP1
+TCF_0.8h_embryo_ChIP.seq_Input_Rep1_REP1,results/basic_chip/fastq/TCF_0.8h_embryo_ChIP.seq_Input_Rep1.fastq.gz,,,

@@ -30,7 +30,7 @@ model2use <- names(which.min(c(`1S`=fitTFBS@bic1S,
 # ------------------------------------------------------------------------------
 # peak calling
 # ------------------------------------------------------------------------------
-peaks <- mosaicsPeak(fitTFBS, signalModel=model2use, FDR=0.05, maxgap=200, minsize=50, thres=10)
+peaks <- mosaicsPeak(fitTFBS, signalModel=model2use, FDR=0.1, maxgap=200, minsize=50, thres=10)
 
 mosaics::export(peaks, type="bed", filename=snakemake@output$bed)
 

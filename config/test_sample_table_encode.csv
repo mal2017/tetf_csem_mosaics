@@ -1,0 +1,4 @@
+sample_name,life_stage_age,simple_biosample_summary,target,input
+rn_ENCSR042EXZ_rep1,pupa unknown stages,pupa (unknown stages) strain rn-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster rn,rn,input_ENCSR944FZP_rep1
+rn_ENCSR042EXZ_rep2,pupa unknown stages,pupa (unknown stages) strain rn-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster rn,rn,input_ENCSR944FZP_rep1
+input_ENCSR944FZP_rep1,pupa unknown stages,pupa (unknown stages) strain rn-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster rn,NA,NA

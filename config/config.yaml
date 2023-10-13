@@ -13,3 +13,6 @@ MAX_READ_LEN: 36
 N_CONTENT: resources/dm6_peakseq_mappability/results/final-allchr/allchr_N_fragL200_bin50.txt
 GC_CONTENT: resources/dm6_peakseq_mappability/results/final-allchr/allchr_GC_fragL200_bin50.txt
 MAPPABILITY: resources/dm6_peakseq_mappability/results/final-allchr/allchr_map_fragL200_bin50.txt
+
+repeat_bed: /projectsp/f_cee53_1/ellison_lab/matt/tetf/subworkflows/tetf_refs/results/repeatmasker/reference_insertions.bed
+ucsc_repeats: resources/ucsc_all_repeatmasker.ncbi_chrnames.bed

@@ -13,9 +13,9 @@ rule csem:
     params:
         path = config.get("CSEM_DIR")
     resources:
-        time=40,
-        mem=24000,
-        cpus=8
+        time=240,
+        mem=48000,
+        cpus=48
     shell:
         """
         {params.path}/run-csem --bam \
@@ -25,38 +25,14 @@ rule csem:
               $(dirname {output.bam})/$(basename -s .sorted.bam {output.bam})
         """
 
-ruleorder: addrg > csem
-
-rule addrg:
-    input:
-        rules.csem.output.bam
-    output:
-        bam = "results/csem_mosaics/csem-dedup/{sample}.sorted.rg.bam"
-    resources:
-        time=40,
-        mem=24000,
-        cpus=1
-    shell:
-        """
-        picard AddOrReplaceReadGroups \
-            CREATE_INDEX=true \
-            I={input} \
-            O={output.bam} \
-            RGID={wildcards.sample} \
-            RGLB={wildcards.sample} \
-            RGPL=ILLUMINA \
-            RGPU=unit1 \
-            RGSM={wildcards.sample}
-        """
-
 rule csem_generate_bed:
     """
     MOSAiCS expected format
     """
     input:
-        bam = rules.addrg.output.bam
+        bam = rules.csem.output.bam
     output:
-        bed = "results/csem_mosaics/csem-dedup/{sample}.bed"
+        bed = temp("results/csem_mosaics/csem-dedup/{sample}.bed")
     params:
         path = config.get("CSEM_DIR")
     resources:

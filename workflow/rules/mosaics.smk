@@ -21,7 +21,7 @@ rule mosaics_bin_level:
 rule mosaics_main_dedup:
     input:
         chip = "results/csem_mosaics/mosaics-bin-level/{sample}/",
-        control = lambda wc: "results/csem_mosaics/mosaics-bin-level/{c}/".format(c=pep.get_sample(wc.sample).input),
+        control = lambda wc: expand("results/csem_mosaics/mosaics-bin-level/{c}/",c=pep.get_sample(wc.sample).input),
         GC = config.get("GC_CONTENT"),
         N= config.get("N_CONTENT"),
         M= config.get("MAPPABILITY"),
@@ -39,3 +39,21 @@ rule mosaics_main_dedup:
         cpus=1
     script:
         "../scripts/mosaics.R"
+
+# localrules: track_input
+# rule track_input:
+#     input:
+#         chip = "results/csem_mosaics/trimmed/{sample}.fastp.fastq.gz",
+#         control = lambda wc: expand("results/csem_mosaics/trimmed/{c}.fastp.fastq.gz", c=pep.get_sample(wc.sample).input),
+#     output:
+#         "results/csem_mosaics/mosaics/{sample}/{sample}.mosaics.samples_used.txt"
+#     shell:
+#         "echo {input.chip} > {output} &&  echo {input.control} >> {output}"
+
+# rule collect_track_input:
+#     input:
+#         expand("results/csem_mosaics/mosaics/{sample}/{sample}.mosaics.samples_used.txt",sample=CHIPS)
+#     output:
+#         "results/csem_mosaics/mosaics/collected_mosaics.samples_used.txt"
+#     shell:
+#         "cat {input} > {output}"
