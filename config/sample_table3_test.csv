@@ -1,5 +1,0 @@
-sample_name,accession,LIBRARY_LAYOUT,input,
-TCF_nonISO1_0.8_embryonic_ChIP.seq_ChIP_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/000/SRR1164480/SRR1164480.fastq.gz,SINGLE,TCF_nonISO1_0.8_embryonic_ChIP.seq_Input_Rep2
-TCF_nonISO1_0.8_embryonic_ChIP.seq_Input_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/007/SRR1164477/SRR1164477.fastq.gz,SINGLE,NA
-TCF_nonISO1_0.8_embryonic_ChIP.seq_Input_Rep2,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/008/SRR1164478/SRR1164478.fastq.gz,SINGLE,NA
-TCF_nonISO1_0.8_embryonic_ChIP.seq_ChIP_Rep1,ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/009/SRR1164479/SRR1164479.fastq.gz,SINGLE,TCF_nonISO1_0.8_embryonic_ChIP.seq_Input_Rep1
