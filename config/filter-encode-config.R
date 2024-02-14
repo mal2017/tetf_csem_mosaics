@@ -4,7 +4,7 @@ st <- read_csv("config/sample_table_encode.csv")
 sst <- read_csv("config/subsample_table_encode.csv")
 
 
-filt_st <- st |> filter(target %in% c("pan","gro","arm"))
+filt_st <- st |> filter(target %in% c("pan","gro","arm","H3K9Me3","CG16779","Odj","CG7357","NfI","CG17802","vvl"))
 
 filt_st <- bind_rows(filt_st, filter(st,sample_name %in% filt_st$input))
 

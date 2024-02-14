@@ -24,7 +24,7 @@ y <- wce_f |> import()
 # wei et al. 2022 https://doi.org/10.1093/molbev/msac080
 # the actual log FC calc with be done by deeptools outside of this script
 scale_within_sample <- function(gr) {
-    gr$score <- gr$score / (median(gr$score) + 0.01)
+    gr$score <- (gr$score + 0.01) / (median(gr$score) + 0.01)
     
     return(gr)
 }

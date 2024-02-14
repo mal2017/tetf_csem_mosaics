@@ -1,4 +1,7 @@
 sample_name,life_stage_age,simple_biosample_summary,target,input
+NfI_ENCSR085FSS_rep2,embryonic 12-24 hours,mixed sex embryo (12-24 hours) strain NfI-GFP VK00033 genetically modified (insertion) using site-specific recombination targeting D. melanogaster NfI,NfI,input_ENCSR065VFN_rep1
+NfI_ENCSR085FSS_rep3,embryonic 12-24 hours,mixed sex embryo (12-24 hours) strain NfI-GFP VK00033 genetically modified (insertion) using site-specific recombination targeting D. melanogaster NfI,NfI,input_ENCSR065VFN_rep1
+NfI_ENCSR085FSS_rep4,embryonic 12-24 hours,mixed sex embryo (12-24 hours) strain NfI-GFP VK00033 genetically modified (insertion) using site-specific recombination targeting D. melanogaster NfI,NfI,input_ENCSR065VFN_rep1
 pan_ENCSR033IIP_rep1,embryonic 0-8 hours,embryo (0-8 hours) strain yellow cinnabar brown speck,pan,input_ENCSR790CIN_rep1
 pan_ENCSR033IIP_rep2,embryonic 0-8 hours,embryo (0-8 hours) strain yellow cinnabar brown speck,pan,input_ENCSR790CIN_rep1
 pan_ENCSR042VRW_rep1,embryonic 0-24 hours,embryo (0-24 hours) strain pan-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster pan,pan,input_ENCSR963EIX_rep1
@@ -7,18 +10,48 @@ pan_ENCSR058DSI_rep1,embryonic 0-8 hours,embryo (0-8 hours) strain Hr3-GFP VK000
 pan_ENCSR058DSI_rep2,embryonic 0-8 hours,embryo (0-8 hours) strain Hr3-GFP VK00033 genetically modified (insertion) using site-specific recombination targeting D. melanogaster Hr3,pan,input_ENCSR344TQJ_rep1
 pan_ENCSR074LKQ_rep1,embryonic 16-24 hours,embryo (16-24 hours) strain yellow cinnabar brown speck,pan,input_ENCSR370EGA_rep1
 pan_ENCSR074LKQ_rep2,embryonic 16-24 hours,embryo (16-24 hours) strain yellow cinnabar brown speck,pan,input_ENCSR370EGA_rep1
+CG7357_ENCSR121SDZ_rep1,embryonic 0-24 hours,embryo (0-24 hours) strain CG7357-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster Odj,CG7357,input_ENCSR583JSU_rep1
+CG7357_ENCSR121SDZ_rep2,embryonic 0-24 hours,embryo (0-24 hours) strain CG7357-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster Odj,CG7357,input_ENCSR583JSU_rep1
+CG7357_ENCSR121SDZ_rep3,embryonic 0-24 hours,embryo (0-24 hours) strain CG7357-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster Odj,CG7357,input_ENCSR583JSU_rep1
+CG17802_ENCSR165KWP_rep1,embryonic 0-14 hours,mixed sex embryo (0-14 hours) strain CG17802 attP40 genetically modified (insertion) using site-specific recombination targeting D. melanogaster CG17802,CG17802,input_ENCSR598ZNC_rep1
+CG17802_ENCSR165KWP_rep2,embryonic 0-14 hours,mixed sex embryo (0-14 hours) strain CG17802 attP40 genetically modified (insertion) using site-specific recombination targeting D. melanogaster CG17802,CG17802,input_ENCSR598ZNC_rep1
+vvl_ENCSR350VLI_rep1,embryonic 0-24 hours,embryo (0-24 hours) strain vvl-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster vvl,vvl,input_ENCSR186OZX_rep1
+vvl_ENCSR350VLI_rep2,embryonic 0-24 hours,embryo (0-24 hours) strain vvl-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster vvl,vvl,input_ENCSR186OZX_rep1
 pan_ENCSR455AWG_rep1,NA,strain yellow cinnabar brown speck  at white prepupa stage,pan,input_ENCSR872ZLJ_rep1
 pan_ENCSR455AWG_rep2,NA,strain yellow cinnabar brown speck  at white prepupa stage,pan,input_ENCSR872ZLJ_rep1
 pan_ENCSR455AWG_rep3,NA,strain yellow cinnabar brown speck  at white prepupa stage,pan,input_ENCSR872ZLJ_rep1
 pan_ENCSR636FRF_rep1,NA,wandering third instar larva strain yellow cinnabar brown speck,pan,input_ENCSR711IHB_rep1
 pan_ENCSR636FRF_rep2,NA,wandering third instar larva strain yellow cinnabar brown speck,pan,input_ENCSR711IHB_rep1
 pan_ENCSR636FRF_rep3,NA,wandering third instar larva strain yellow cinnabar brown speck,pan,input_ENCSR711IHB_rep1
+CG16779_ENCSR846PTH_rep1,NA,mixed sex prepupa strain CG16779-MiMIC genetically modified (insertion) using site-specific recombination targeting D. melanogaster CG16779,CG16779,input_ENCSR653VKU_rep1
+CG16779_ENCSR846PTH_rep2,NA,mixed sex prepupa strain CG16779-MiMIC genetically modified (insertion) using site-specific recombination targeting D. melanogaster CG16779,CG16779,input_ENCSR653VKU_rep1
+CG16779_ENCSR846PTH_rep3,NA,mixed sex prepupa strain CG16779-MiMIC genetically modified (insertion) using site-specific recombination targeting D. melanogaster CG16779,CG16779,input_ENCSR653VKU_rep1
+CG16779_ENCSR965LOI_rep1,embryonic 8-24 hours,embryo (8-24 hours) strain CG16779-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster CG16779,CG16779,input_ENCSR612KXA_rep1
+CG16779_ENCSR965LOI_rep2,embryonic 8-24 hours,embryo (8-24 hours) strain CG16779-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster CG16779,CG16779,input_ENCSR612KXA_rep1
 gro_ENCSR981DLO_rep1,embryonic 0-24 hours,mixed sex embryo (0-24 hours) strain gro-GFP attP16 genetically modified (insertion) using site-specific recombination targeting D. melanogaster gro,gro,input_ENCSR371KOI_rep1
 gro_ENCSR981DLO_rep3,embryonic 0-24 hours,mixed sex embryo (0-24 hours) strain gro-GFP attP16 genetically modified (insertion) using site-specific recombination targeting D. melanogaster gro,gro,input_ENCSR371KOI_rep1
+E20.24_H3K9Me3_ChIPSeq_1,NA,NA,H3K9Me3,E20.24_INPUT
+E4.8_H3K9Me3_ChIPSeq_1,NA,NA,H3K9Me3,E4.8_INPUT
+E0.4_H3K9Me3_ChIPSeq_1,NA,NA,H3K9Me3,E0.4_INPUT
+E16.20_H3K9Me3_ChIPSeq_1,NA,NA,H3K9Me3,E16.20_INPUT
+E12.16_H3K9Me3_ChIPSeq_1,NA,NA,H3K9Me3,E12.16_INPUT
+E8.12_H3K9Me3_ChIPSeq_1,NA,NA,H3K9Me3,E8.12_INPUT
+input_ENCSR065VFN_rep1,embryonic 12-24 hours,mixed sex embryo (12-24 hours) strain NfI-GFP VK00033 genetically modified (insertion) using site-specific recombination targeting D. melanogaster NfI,NA,NA
+input_ENCSR186OZX_rep1,embryonic 0-24 hours,embryo (0-24 hours) strain vvl-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster vvl,NA,NA
 input_ENCSR344TQJ_rep1,embryonic 0-8 hours,embryo (0-8 hours) strain Hr3-GFP VK00033 genetically modified (insertion) using site-specific recombination targeting D. melanogaster Hr3,NA,NA
 input_ENCSR370EGA_rep1,embryonic 16-24 hours,embryo (16-24 hours) strain yellow cinnabar brown speck,NA,NA
 input_ENCSR371KOI_rep1,embryonic 0-24 hours,mixed sex embryo (0-24 hours) strain gro-GFP attP16 genetically modified (insertion) using site-specific recombination targeting D. melanogaster gro,NA,NA
+input_ENCSR583JSU_rep1,embryonic 0-24 hours,embryo (0-24 hours) strain CG7357-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster Odj,NA,NA
+input_ENCSR598ZNC_rep1,embryonic 0-14 hours,mixed sex embryo (0-14 hours) strain CG17802 attP40 genetically modified (insertion) using site-specific recombination targeting D. melanogaster CG17802,NA,NA
+input_ENCSR612KXA_rep1,embryonic 8-24 hours,embryo (8-24 hours) strain CG16779-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster CG16779,NA,NA
+input_ENCSR653VKU_rep1,NA,mixed sex prepupa strain CG16779-MiMIC genetically modified (insertion) using site-specific recombination targeting D. melanogaster CG16779,NA,NA
 input_ENCSR711IHB_rep1,NA,wandering third instar larva strain yellow cinnabar brown speck,NA,NA
 input_ENCSR790CIN_rep1,embryonic 0-8 hours,embryo (0-8 hours) strain yellow cinnabar brown speck,NA,NA
 input_ENCSR872ZLJ_rep1,NA,strain yellow cinnabar brown speck  at white prepupa stage,NA,NA
 input_ENCSR963EIX_rep1,embryonic 0-24 hours,embryo (0-24 hours) strain pan-GFP genetically modified (insertion) using site-specific recombination targeting D. melanogaster pan,NA,NA
+E0.4_INPUT,NA,NA,NA,NA
+E4.8_INPUT,NA,NA,NA,NA
+E16.20_INPUT,NA,NA,NA,NA
+E12.16_INPUT,NA,NA,NA,NA
+E8.12_INPUT,NA,NA,NA,NA
+E20.24_INPUT,NA,NA,NA,NA

@@ -47,7 +47,7 @@ rule wigtobigwig:
 
 rule scale_csem_bigwig:
     """
-    currently scales the ip to have the same total value as the wce
+    wei et al. 2022 https://doi.org/10.1093/molbev/msac080
     """
     input:
         ip = "results/csem_mosaics/csem/{sample}.bw",
@@ -82,7 +82,7 @@ rule make_log2f_bw:
         cpus=1
     shell:
         """
-        bigwigCompare -b1 {input.ip} -b2 {input.wce} --pseudocount 0.01 --skipZeroOverZero -o {output}
+        bigwigCompare -b1 {input.ip} -b2 {input.wce} --pseudocount 1 1 --skipZeroOverZero -o {output}
         """
 
 rule plotfingerprint:
